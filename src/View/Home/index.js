@@ -67,12 +67,14 @@ const Home = (props) => {
                                     <img
                                         className="slide-1"
                                         src="https://duchl02.github.io/assets/results/webbanhang/src/assets/img/slide1.jpg"
+                                        alt="name slide - 1"
                                     />
                                 </SwiperSlide>
                                 <SwiperSlide>
                                     <img
                                         className="slide-1"
                                         src="https://duchl02.github.io/assets/results/webbanhang/src/assets/img/slide2.jpg"
+                                        alt="name slide - 1"
                                     />
                                 </SwiperSlide>
                             </Swiper>
@@ -102,7 +104,10 @@ const Home = (props) => {
                         </div>
                         <div className="title-name-center">
                             <h1>Sản phẩm mới</h1>
-                            <img src="https://duchl02.github.io/assets/results/webbanhang/src/assets/img/h1cover.png" />
+                            <img
+                                src="https://duchl02.github.io/assets/results/webbanhang/src/assets/img/h1cover.png"
+                                alt="name slide - 1"
+                            />
                         </div>
                     </div>
                 </div>
@@ -139,7 +144,7 @@ const Home = (props) => {
                                         <SwiperSlide key={index}>
                                             <div className="product-item  ">
                                                 <Link to={`/product/${item.id}`}>
-                                                    <img src={item.image} />
+                                                    <img src={item.image} alt="name slide - 1" />
                                                 </Link>
                                                 <div className="product-content">
                                                     <Link to={`/product/${item.id}`}>
@@ -172,7 +177,10 @@ const Home = (props) => {
                 </div>
                 <div className="title-name-center">
                     <h1>Sản phẩm bán chạy</h1>
-                    <img src="https://duchl02.github.io/assets/results/webbanhang/src/assets/img/h1cover.png" />
+                    <img
+                        src="https://duchl02.github.io/assets/results/webbanhang/src/assets/img/h1cover.png"
+                        alt="name slide - 1"
+                    />
                 </div>
                 <div className="center-item-1">
                     <Swiper
@@ -211,7 +219,7 @@ const Home = (props) => {
                                         <SwiperSlide key={index}>
                                             <div key={item.id} className="product-item  ">
                                                 <Link to={`/product/${item.id}`}>
-                                                    <img src={item.image} />
+                                                    <img src={item.image} alt="name slide - 1" />
                                                 </Link>
                                                 <div className="product-content">
                                                     <Link to={`/product/${item.id}`}>
@@ -244,7 +252,10 @@ const Home = (props) => {
                 </div>
                 <div className="title-name-center">
                     <h1>Sản phẩm tiêu biểu</h1>
-                    <img src="https://duchl02.github.io/assets/results/webbanhang/src/assets/img/h1cover.png" />
+                    <img
+                        src="https://duchl02.github.io/assets/results/webbanhang/src/assets/img/h1cover.png"
+                        alt="name slide - 1"
+                    />
                 </div>
                 <div className="best-product">
                     {loadedData === false &&
@@ -252,7 +263,11 @@ const Home = (props) => {
                             return (
                                 <div className="best-product-item">
                                     <div className="best-img-item">
-                                        <img onClick={() => handleClickProduct(item.id)} src={item.image}></img>
+                                        <img
+                                            onClick={() => handleClickProduct(item.id)}
+                                            src={item.image}
+                                            alt="name slide - 1"
+                                        ></img>
                                     </div>
                                     <div className="dis-best-product">
                                         <div className="title-name-center">
@@ -265,7 +280,10 @@ const Home = (props) => {
                             );
                         })}
                     <div className="best-product-img">
-                        <img src="https://duchl02.github.io/assets/results/webbanhang/src/assets/img/center.png"></img>
+                        <img
+                            src="https://duchl02.github.io/assets/results/webbanhang/src/assets/img/center.png"
+                            alt="name slide - 1"
+                        ></img>
                     </div>
                 </div>
             </div>
