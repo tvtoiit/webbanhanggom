@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useEffect } from 'react';
 import '../styles/global.css';
 import Nav from './Nav';
-import Login from './Login/Login';
+// import Login from './Login/Login';
 import News from './News/News';
 import Cart from './Cart/Cart';
 import Contact from './Contact/Contact';

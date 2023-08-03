@@ -1,7 +1,7 @@
 import './LoginStyle.scss';
 import { NavLink } from 'react-router-dom';
-import { GoogleLogin } from 'react-google-login';
-import { GoogleLogout } from 'react-google-login';
+// import { GoogleLogin } from 'react-google-login';
+// import { GoogleLogout } from 'react-google-login';
 import { useNavigate } from 'react-router-dom';
 
 export const Login = (props) => {
