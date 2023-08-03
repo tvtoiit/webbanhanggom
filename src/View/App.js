@@ -93,7 +93,7 @@ function App() {
                     <Route path="/news" element={<News />} />
                     <Route path="/contact" element={<Contact />} />
                     <Route path="/shopping" element={<Shopping />} />
-                    <Route path="/login" element={<Login user={user} clientId={clientId} onSuccess={onSuccess} />} />
+                    {/* <Route path="/login" element={<Login user={user} clientId={clientId} onSuccess={onSuccess} />} /> */}
                     <Route
                         path="/cart"
                         element={<Cart loadedData={loadedData} handleDelete={handleDelete} datamap={datamap} />}
