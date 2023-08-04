@@ -72,7 +72,9 @@ const Nav = (props) => {
                         <div className="navbar8">
                             <ul className="navbar8-nav  ">
                                 <li>
-                                    <NavLink to="/">Trang chủ</NavLink>
+                                    <NavLink exact to="/">
+                                        Trang chủ
+                                    </NavLink>
                                 </li>
                                 <li>
                                     <NavLink to="/product">Sản phẩm</NavLink>
